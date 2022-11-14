@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Logo y nombre */
+div.tituloHeader {
+    display: flex;
+    align-items: center;
+    width: 234px;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+div.tituloHeader img {
+    height: 80px;
+}
+
+.tituloHeader h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+span.pizza {
+    color: #39B24A;
+}
+
+span.y {
+    color: #FFFFFF;
+}
+
+span.front {
+    color: #FC200C;
+}
+
+ul.botonesHeader {
+    color: #F3F3F3;
+    font-size: 16px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    background-color: #E5E5E5;
+    gap: 5px;
+}
+
+/* Seccion delivery */
+.delivery {
+    height: 350px;
+    width: 490px;
+    background-image: url(../img/fondo_moto.png);
+    background-size: cover;
+    border-radius: 5px;
+    margin: 35px 0px;
+    margin-left: 19px;
+}
+
+.delivery h2 {
+    color: #FC200C;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.delivery span {
+    color: #FFFFFF;
+}
+
+/* Seccion Podio */
+
+.podio {
+    height: 350px;
+    width: 490px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 0px;
+    margin-right: 19px;
+}
+
+.podio h2 {
+    color: #FC200C;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    }
+
+.contenidoPodio {
+    width: 385px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top5 {
+    width: 200px;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.top5 h3 {
+    color: #222222;
+    margin-left: 40px;
+}
+
+.top5 ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 16px;
+    gap: 7px;
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    height: 150px;
+}
+
+.tituloFooter h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+div.tituloFooter {
+    display: flex;
+    align-items: center;
+    margin-right: 42px;
+    gap: 10px;
+}
+
+div.tituloFooter img {
+    height: 80px;
+}
+
+ul.botonesFooter {
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    justify-content: space-evenly;
+    list-style: none;
+    }
